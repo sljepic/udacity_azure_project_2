@@ -2,6 +2,7 @@
 
 PORT=443
 echo "Port: $PORT"
+
 # POST method predict
 curl -d '{
    "CHAS":{
@@ -24,5 +25,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://flaskappljepic.azurewebsites.net:$PORT/predict 
+     -X POST https://flaskappljepic.azurewebsites.net:$PORT/predict
      #your application name <yourappname>goes here
