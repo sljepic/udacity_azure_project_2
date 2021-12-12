@@ -1,9 +1,15 @@
-# Overview
+Building a CI/CD Pipeline is a project that combines Agile Planning, Continous Integration, and Continous Delivery concepts. A quarterly and a yearly plans are created in a Spreadsheet as a part of Agile Planning to help managing project. To help with project tracking, all tasks are mapped on tickets with expected start and end dates and are categorized in three sections: To Do, In Progress, and Done. For this project, Azure Cloud Shell is used. Inside of the environment, a scaffolding code was created. Scaffolding code consists of a: 
+* Makefile that executes instalation of required packages, code testing step, and a linter step
+* requirements.txt file that contains all required packages that are going to be installed on a environment in a install step of a Makefile
+* Python script code
+* Python script that contains tests for a code  
 
-<TODO: complete this with an overview of your project>
+The next step was to configure GitHub Actions to provide Continous Integrations step and verify remote teests pass. Continuous Delivery was set up by using Azure Pipelines and Azure App Service. The final product of a project is a Flask Machine Learning web application deployed on a Azure Pipelines.  
+Finally, this project is documented in two steps:
+1. README.md file - file containing basic informations how to run a project and output screenshots of project outputs.
+2. Demo video file where the project is presented step-by-step.
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project: https://trello.com/b/3OUrdavt/building-ci-cd-pipeline
 * A link to a spreadsheet that includes the original and final project plan>: https://docs.google.com/spreadsheets/d/1M0sbWKSYJlzaEH8bg0qZeEOm8pyYqbTUzcHVhljJldw/edit#gid=1348135932
