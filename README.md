@@ -44,11 +44,12 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-> 
+>
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+In order to improve current project, this workflow can be created inside of GitHub Actions, where pros and cons would be evaluated and documented. Moreover, this project could be re-implemented in more languages that Azure supports, like C# and JavaScript.
+
 
 ## Demo 
 
