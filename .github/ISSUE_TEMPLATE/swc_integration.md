@@ -3,26 +3,37 @@ name: SWC integration request
 about: Use this template for adding or updating existing software components.
 title: "[SWC Integration]: "
 labels: pre-integration
-assignees: team-alas, team-volta
+assignees: @ExchangePlatform/team-alas, @ExchangePlatform/team-volta
 ---
 
-<!---
 Provide your SWC name
--->
-SWC name: <swc_name>
-SWC version: <swc_version>
-PIE version: <pie_version>
-AOS version: <aos_version>
-HW variant: <hw_variant>
-Artifactory URL to delivery package directory: <artifactory_url>
+* SWC name:  
+
+Provide SWC version (e.g. v1.0)
+* SWC version:  
+
+What version of PIE are you running?
+* PIE version:  
+
+What version of AOS are you running?
+* AOS version:  
+
+What version of HW variant are you running?
+* HW variant:  
+
+Artifactory URL to delivery package directory:
+* Artifactory URL:  
+
+Please provide relative paths from Artifactory URL.
+
 Delivery package mapping:
-*    Release notes relative file path: <relative_file_path>
-*    AIT report relative file path: <relative_file_path>
-*    MISRA relative file path: <relative_file_path>
-*    Libraries relative directory path: <relative_dir_path>
-*    SiLLibraries relative directory path: <relative_dir_path>
-*    Binaries relative directory path: <relative_dir_path>
-*    Data Sets relative directory path: <relative_dir_path>
-*    Map relative file path: <relative_file_path>
-*    Log relative file path: <relative_file_path>
-*    Test vectors relative directory path: <relative_dir_path>
+*    Release notes relative file path:  
+*    AIT report relative file path:  
+*    MISRA relative file path:  
+*    Libraries relative directory path:  
+*    SiLLibraries relative directory path:  
+*    Binaries relative directory path:  
+*    Data Sets relative directory path:  
+*    Map relative file path:  
+*    Log relative file path:  
+*    Test vectors relative directory path:  
